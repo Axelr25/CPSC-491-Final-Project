@@ -5,10 +5,10 @@
     <style>
         /* Style for bubble buttons */
         .bubble-button {
-            display:block;
+            display: block;
             width: 100px;
             padding: 5px 10px;
-            margin: 5px;
+            margin: 3px;
             font-size: 16px;
             text-align: left;
             border-radius: 0%;
@@ -51,6 +51,10 @@
 
         /* Additional styles for layout */
         .button-container {
+            position: fixed;
+            left: 0;
+            top: 13%;
+            transform: translateY(-50%);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -85,7 +89,7 @@
 
     <!-- Bubble buttons container -->
     <div class="button-container">
-        <!-- Bubble buttons -->
+        <!-- Bubble buttons (moved to the left) -->
         <a href="page1.html" class="bubble-button">Button 1</a>
         <a href="page2.html" class="bubble-button">Button 2</a>
         <a href="page3.html" class="bubble-button">Button 3</a>
